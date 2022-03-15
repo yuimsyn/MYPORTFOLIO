@@ -1,0 +1,16 @@
+@charset "UTF-8";
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+article{
+    width: 74%;
+}
+aside{
+    width: 22%;
+}
+.side-contents{
+    border-bottom: 2px solid;
+}
+

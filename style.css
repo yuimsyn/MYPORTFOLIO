@@ -17,8 +17,7 @@ html{
 
 body {
     font-family: "Source Sans Pro", "Hiragino Kaku Gothic ProN", Meiryo, Arial, sans-serif;
-    width: 100px;
-    height: 100px;
+    
 }
 
 .top-contents{
@@ -34,3 +33,10 @@ p {
     font-size: 15px;
     margin:0 0 0 0;
   }
+fotter{
+    text-align:right;
+
+}
+fotter p{
+  
+}
