@@ -11,6 +11,7 @@ aside{
     width: 22%;
 }
 .side-contents{
+    list-style: none;
     border-bottom: 2px solid;
 }
 
