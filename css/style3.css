@@ -1,0 +1,6 @@
+@charset "UTF-8";
+body{
+    background-image: url(images/himawari.jpg);
+    background-size: 10%;
+    background-repeat: repeat-x;
+}
