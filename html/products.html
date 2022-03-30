@@ -3,14 +3,24 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel = "stylesheet" href = "style2.css">    
+        <link rel = "stylesheet" href = "style2.css"> 
+        <script src = "https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
     </head>
     <body>
-        <div class = "container">
-            <article>
-                <h1>ようこそ</h1>
-                <p>工夫した点</p>
-            </article>
+        <h2>TODOLIST</h2>
+        <div id = "app">
+            <div v-for = "todo in todos">
+                <lavel>
+                    <input type = "checkbox" v-model = "todo.done">
+                    <span v-bind:class = "{donestyle:todo.done}">{{todo.text}}</span>
+
+                </lavel>
+            </div>
+            <p>{{remaining}}/{{todos.length}}件処理</p>
+        </div>
+
+
+
 
             
             <aside>
@@ -20,6 +30,5 @@
                 </ul>
 
             </aside>
-        </div>
     </body>
 </html>
